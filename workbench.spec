@@ -8,6 +8,7 @@ URL:            https://github.com/sonnyp/Workbench
 Source0:        https://github.com/sonnyp/Workbench/archive/refs/tags/v%{version}/%{oname}-%{version}.tar.gz
 
 BuildRequires:  meson
+BuildRequires:  pkgconfig(vapigen)
 
 %description
 Workbench goal is to let you experiment with GNOME technologies, no matter if tinkering for the first time or building and testing a GTK user interface.
