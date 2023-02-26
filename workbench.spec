@@ -9,6 +9,9 @@ Source0:        https://github.com/sonnyp/Workbench/archive/refs/tags/v%{version
 
 BuildRequires:  meson
 BuildRequires:  pkgconfig(vapigen)
+BuildRequires:  appstream-util
+BuildRequires:  appstream
+BuildRequires:  pkgconfig(gjs-1.0)
 
 %description
 Workbench goal is to let you experiment with GNOME technologies, no matter if tinkering for the first time or building and testing a GTK user interface.
