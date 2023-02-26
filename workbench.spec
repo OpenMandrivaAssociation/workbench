@@ -20,7 +20,7 @@ Among other things, Workbench comes with realtime GTK/CSS preview library of exa
 - console logs
 
 %prep
-%autosetup -n %{oname}-v%{version} -p1
+%autosetup -n %{oname}-%{version} -p1
 
 %build
 %meson
