@@ -11,6 +11,7 @@ BuildRequires:  meson
 BuildRequires:  pkgconfig(vapigen)
 BuildRequires:  appstream-util
 BuildRequires:  appstream
+BuildRequires:  gjs
 BuildRequires:  pkgconfig(gjs-1.0)
 
 %description
