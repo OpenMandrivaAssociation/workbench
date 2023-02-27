@@ -13,6 +13,7 @@ BuildRequires:  appstream-util
 BuildRequires:  appstream
 BuildRequires:  gjs
 BuildRequires:  pkgconfig(gjs-1.0)
+BuildRequires:  pkgconfig(blueprint-compiler)
 
 %description
 Workbench goal is to let you experiment with GNOME technologies, no matter if tinkering for the first time or building and testing a GTK user interface.
